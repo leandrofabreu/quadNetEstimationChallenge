@@ -35,11 +35,24 @@ Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many 
 ![exp001_orderParam](exp001/exp001.png)
 
 
-## Exp002: two coupled oscillators
+## Exp002: ring network
 
 Ring topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
 
 ![exp002_orderParam](exp002/exp002.png)
 
+
+## Exp003: small-workd
+
+Small-world topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
+
+![exp003_orderParam](exp003/exp003.png)
+
+
+## Exp004: scale free
+
+Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
+
+![exp004_orderParam](exp004/exp004.png)
 
 
