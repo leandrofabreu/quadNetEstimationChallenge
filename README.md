@@ -30,7 +30,7 @@ Parameters of all simulation:
 
 ## Exp001: two coupled oscillators
 
-Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many different coupling strengths (`Rf`). The plot below can be used as a guide to verify the level of synchronization for each `Rf`. It is worth to note that a null phase coherence, in this case, means anti-phase synchronization.
+Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many different coupling strengths (`Rf`). The plot below can be used as a guide to verify the level of synchronization for each `Rf`.
 
 ![exp001_orderParam](exp001/exp001.png)
 
