@@ -35,4 +35,11 @@ Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many 
 ![exp001_orderParam](exp001/exp001.png)
 
 
+## Exp002: two coupled oscillators
+
+Ring topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
+
+![exp002_orderParam](exp002/exp002.png)
+
+
 
