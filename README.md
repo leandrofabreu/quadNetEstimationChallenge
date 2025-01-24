@@ -59,9 +59,9 @@ Small-world topology composed by 10 oscillators with natural frequencies (Hz): [
 
 ## Exp004: scale-free
 
-Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`). The adjacency matrix \( \textbf{Adj} \) is given by:
+Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`). The adjacency matrix \( <strong>Adj</strong> \) is given by:
 
-\[
+<!-- \[
 \textbf{Adj} =
 \begin{bmatrix}
 0 & 0 & 1 & 1 & 1 & 0 & 0 & 1 & 1 & 0 \\
@@ -75,7 +75,21 @@ Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3
 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
 0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0
 \end{bmatrix}
-\]
+\] -->
+
+<p><strong>Adj</strong> =</p>
+<table>
+  <tr><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+  <tr><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+  <tr><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td></tr>
+  <tr><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+  <tr><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table>
 
 ![exp004_orderParam](exp004/exp004.png)
 
