@@ -42,7 +42,7 @@ Parameters of all simulations:
 Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many different coupling strengths (`Rf`). The plot below can be used as a guide to verify the level of synchronization for each value of `Rf`.
 
 <div style="display: flex;"> 
-  <img src="exp001/exp001_adj.png" alt="exp001_adj" style="flex: 1;" width="200">
+  <img src="exp001/exp001_adj.png" alt="exp001_adj" style="flex: 1;" width="250">
   <img src="exp001/exp001.png" alt="exp001_orderParam" style="flex: 1;">
 </div>
 
@@ -52,7 +52,7 @@ Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many 
 Ring topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
 
 <div style="display: flex;"> 
-  <img src="exp002/exp002_adj.png" alt="exp002_adj" style="flex: 1;" width="200">
+  <img src="exp002/exp002_adj.png" alt="exp002_adj" style="flex: 1;" width="250">
   <img src="exp002/exp002.png" alt="exp002_orderParam" style="flex: 1;">
 </div>
 
@@ -62,7 +62,7 @@ Ring topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3
 Small-world topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
 
 <div style="display: flex;"> 
-  <img src="exp003/exp003_adj.png" alt="exp003_adj" style="flex: 1;" width="200">
+  <img src="exp003/exp003_adj.png" alt="exp003_adj" style="flex: 1;" width="250">
   <img src="exp003/exp003.png" alt="exp003_orderParam" style="flex: 1;">
 </div>
 
@@ -102,7 +102,7 @@ Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3
 </table> -->
 
 <div style="display: flex;"> 
-  <img src="exp004/exp004_adj.png" alt="exp004_adj" style="flex: 1;" width="200">
+  <img src="exp004/exp004_adj.png" alt="exp004_adj" style="flex: 1;" width="250">
   <img src="exp004/exp004.png" alt="exp004_orderParam" style="flex: 1;">
 </div>
 
