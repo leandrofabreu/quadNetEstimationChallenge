@@ -36,6 +36,7 @@ Parameters of all simulations:
 - `tfTr = 60`: transient time (seconds)
 - `tf = 120`: total time of the simulation in permanent regime (seconds)
 
+
 ## Exp001: two coupled oscillators
 
 Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many different coupling strengths (`Rf`). The plot below can be used as a guide to verify the level of synchronization for each value of `Rf`.
@@ -64,6 +65,7 @@ Small-world topology composed by 10 oscillators with natural frequencies (Hz): [
   <img src="exp003/exp003_adj.png" alt="exp003_adj" style="flex: 1;" width="150">
   <img src="exp003/exp003.png" alt="exp003_orderParam" style="flex: 1;">
 </div>
+
 
 ## Exp004: scale-free
 
