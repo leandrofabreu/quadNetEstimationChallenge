@@ -40,22 +40,30 @@ Parameters of all simulations:
 
 Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many different coupling strengths (`Rf`). The plot below can be used as a guide to verify the level of synchronization for each value of `Rf`.
 
-![exp001_orderParam](exp001/exp001.png)
+<div style="display: flex;"> 
+  <img src="exp001/exp001_adj.png" alt="exp001_adj" style="flex: 1;" width="150">
+  <img src="exp001/exp001.png" alt="exp001_orderParam" style="flex: 1;">
+</div>
 
 
 ## Exp002: ring network
 
 Ring topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
 
-![exp002_orderParam](exp002/exp002.png)
+<div style="display: flex;"> 
+  <img src="exp002/exp002_adj.png" alt="exp002_adj" style="flex: 1;" width="150">
+  <img src="exp002/exp002.png" alt="exp002_orderParam" style="flex: 1;">
+</div>
 
 
 ## Exp003: small-world
 
 Small-world topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
 
-![exp003_orderParam](exp003/exp003.png)
-
+<div style="display: flex;"> 
+  <img src="exp003/exp003_adj.png" alt="exp003_adj" style="flex: 1;" width="150">
+  <img src="exp003/exp003.png" alt="exp003_orderParam" style="flex: 1;">
+</div>
 
 ## Exp004: scale-free
 
@@ -77,7 +85,7 @@ Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3
 \end{bmatrix}
 \] -->
 
-<p><strong>Adj</strong> =</p>
+<!-- <p><strong>Adj</strong> =</p>
 <table>
   <tr><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
   <tr><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
@@ -89,8 +97,14 @@ Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3
   <tr><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
   <tr><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
   <tr><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-</table>
+</table> -->
 
-![exp004_orderParam](exp004/exp004.png)
+<div style="display: flex;"> 
+  <img src="exp004/exp004_adj.png" alt="exp004_adj" style="flex: 1;" width="150">
+  <img src="exp004/exp004.png" alt="exp004_orderParam" style="flex: 1;">
+</div>
+
+
+
 
 
