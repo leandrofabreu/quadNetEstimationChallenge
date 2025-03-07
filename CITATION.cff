@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Freitas
+    given-names: Leandro
+    orcid: https://orcid.org/0000-0002-8757-807X
+title: "QuadNet Estimation Challenge"
+version: 0.0.1
+date-released: 2025-03-07
