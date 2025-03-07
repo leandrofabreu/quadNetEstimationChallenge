@@ -4,6 +4,11 @@ authors:
   - family-names: Freitas
     given-names: Leandro
     orcid: https://orcid.org/0000-0002-8757-807X
+  - family-names: Herrera
+    given-names: Wendy Y. E.
+  - family-names: Aguirre
+    given-names: Luis A.
+    orcid: https://orcid.org/0000-0002-2746-5102
 title: "QuadNet Estimation Challenge"
 version: 0.0.1
 url: https://github.com/leandrofabreu/quadNetEstimationChallenge
