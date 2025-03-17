@@ -111,4 +111,10 @@ Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3
 </details>
 
 
+____
+
+# How to cite this repository?
+
+Please click the icon `Cite this repository` above in Github, or see the citation file included.
+
 
