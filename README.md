@@ -49,7 +49,7 @@ Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many 
 
 ## Exp002: ring network
 
-Ring topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
+Ring topology composed by 10 oscillators with natural frequencies (Hz): [3.9413, 3.9198, 3.8334, 3.9061, 3.9279, 3.9173, 3.8717, 3.8585, 3.9218, 3.8019], coupled with different coupling strengths (`Rf`).
 
 <div style="display: flex;"> 
   <img src="exp002/exp002_adj.png" alt="exp002_adj" style="flex: 1;" width="250">
@@ -59,7 +59,7 @@ Ring topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3
 
 ## Exp003: small-world
 
-Small-world topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
+Small-world topology composed by 10 oscillators with natural frequencies (Hz): [3.8042, 3.8327, 3.8415, 3.8149, 3.8213, 3.8354, 3.8428, 3.8126, 3.8467, 3.8031], coupled with different coupling strengths (`Rf`).
 
 <div style="display: flex;"> 
   <img src="exp003/exp003_adj.png" alt="exp003_adj" style="flex: 1;" width="250">
@@ -69,7 +69,7 @@ Small-world topology composed by 10 oscillators with natural frequencies (Hz): [
 
 ## Exp004: scale-free
 
-Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`). The adjacency matrix \( <strong>Adj</strong> \) is given by:
+Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3.9413, 3.9198, 3.8334, 3.9061, 3.9279, 3.9173, 3.8717, 3.8585, 3.9218, 3.8019], coupled with different coupling strengths (`Rf`). The adjacency matrix \( <strong>Adj</strong> \) is given by:
 
 <!-- \[
 \textbf{Adj} =
