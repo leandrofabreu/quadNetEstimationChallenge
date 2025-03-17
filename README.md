@@ -63,6 +63,8 @@ Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many 
 <img src="exp001/exp001b_Rf_20k.png" alt="exp001b_Rf_20k" style="flex: 1;" width="800">
 <img src="exp001/exp001c_Rf_70k.png" alt="exp001c_Rf_70k" style="flex: 1;" width="800"> -->
 
+____
+____
 
 ## Exp002: ring network
 
