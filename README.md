@@ -37,76 +37,78 @@ Parameters of all simulations:
 - `tf = 120`: total time of the simulation in permanent regime (seconds)
 
 
+
+
 ## Exp001: two coupled oscillators
 
 Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many different coupling strengths (`Rf`). The plot below can be used as a guide to verify the level of synchronization for each value of `Rf`.
 
-<div style="display: flex;"> 
-  <img src="exp001/exp001_adj.png" alt="exp001_adj" style="flex: 1;" width="250">
-  <img src="exp001/exp001.png" alt="exp001_orderParam" style="flex: 1;">
-</div>
+<img src="exp001/exp001_adj.png" alt="exp001_adj" style="flex: 1;" width="250">
 
+<details>
+  <summary>Click here to see details...</summary>
+
+  <img src="exp001/exp001.png" alt="exp001_orderParam" style="flex: 1;" width="800">
+  <img src="exp001/exp001a_Rf_10k.png" alt="exp001a_Rf_10k" style="flex: 1;" width="800">
+  <img src="exp001/exp001b_Rf_20k.png" alt="exp001b_Rf_20k" style="flex: 1;" width="800">
+  <img src="exp001/exp001c_Rf_70k.png" alt="exp001c_Rf_70k" style="flex: 1;" width="800">
+
+</details>
+
+____
 
 ## Exp002: ring network
 
-Ring topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
+Ring topology composed by 10 oscillators with natural frequencies (Hz): [3.9413, 3.9198, 3.8334, 3.9061, 3.9279, 3.9173, 3.8717, 3.8585, 3.9218, 3.8019], coupled with different coupling strengths (`Rf`).
 
-<div style="display: flex;"> 
-  <img src="exp002/exp002_adj.png" alt="exp002_adj" style="flex: 1;" width="250">
+<img src="exp002/exp002_adj.png" alt="exp002_adj" style="flex: 1;" width="250">
+
+<details>
+  <summary>Click here to see details...</summary>
+
   <img src="exp002/exp002.png" alt="exp002_orderParam" style="flex: 1;">
-</div>
+  <img src="exp002/exp002a_Rf_1k.png" alt="exp002a_Rf_1k" style="flex: 1;" width="800">
+  <img src="exp002/exp002b_Rf_10k.png" alt="exp002b_Rf_10k" style="flex: 1;" width="800">
+  <img src="exp002/exp002c_Rf_50k.png" alt="exp002c_Rf_50k" style="flex: 1;" width="800">
 
+</details>
+
+
+____
 
 ## Exp003: small-world
 
-Small-world topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`).
+Small-world topology composed by 10 oscillators with natural frequencies (Hz): [3.8042, 3.8327, 3.8415, 3.8149, 3.8213, 3.8354, 3.8428, 3.8126, 3.8467, 3.8031], coupled with different coupling strengths (`Rf`).
 
-<div style="display: flex;"> 
-  <img src="exp003/exp003_adj.png" alt="exp003_adj" style="flex: 1;" width="250">
+<img src="exp003/exp003_adj.png" alt="exp003_adj" style="flex: 1;" width="250">
+
+<details>
+  <summary>Click here to see details...</summary>
+
   <img src="exp003/exp003.png" alt="exp003_orderParam" style="flex: 1;">
-</div>
+  <img src="exp003/exp003a_Rf_1k.png" alt="exp003a_Rf_1k" style="flex: 1;" width="800">
+  <img src="exp003/exp003b_Rf_9k.png" alt="exp003b_Rf_9k" style="flex: 1;" width="800">
+  <img src="exp003/exp003c_Rf_60k.png" alt="exp003c_Rf_60k" style="flex: 1;" width="800">
 
+</details>
+
+____
 
 ## Exp004: scale-free
 
-Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3.62, 3.51, 3.98, 3.72, 3.94, 3.85, 3.53, 3.89, 3.72, 3.79], coupled with different coupling strengths (`Rf`). The adjacency matrix \( <strong>Adj</strong> \) is given by:
+Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3.9413, 3.9198, 3.8334, 3.9061, 3.9279, 3.9173, 3.8717, 3.8585, 3.9218, 3.8019], coupled with different coupling strengths (`Rf`). The adjacency matrix \( <strong>Adj</strong> \) is given by:
 
-<!-- \[
-\textbf{Adj} =
-\begin{bmatrix}
-0 & 0 & 1 & 1 & 1 & 0 & 0 & 1 & 1 & 0 \\
-0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-1 & 1 & 0 & 1 & 1 & 1 & 1 & 0 & 0 & 1 \\
-1 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & 1 & 1 \\
-1 & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
-0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 \\
-1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0
-\end{bmatrix}
-\] -->
+<img src="exp004/exp004_adj.png" alt="exp004_adj" style="flex: 1;" width="250">
 
-<!-- <p><strong>Adj</strong> =</p>
-<table>
-  <tr><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
-  <tr><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-  <tr><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
-  <tr><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td></tr>
-  <tr><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
-  <tr><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-  <tr><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-  <tr><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-  <tr><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-  <tr><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-</table> -->
-
-<div style="display: flex;"> 
-  <img src="exp004/exp004_adj.png" alt="exp004_adj" style="flex: 1;" width="250">
+<details>
+  <summary>Click here to see details...</summary>
+  
   <img src="exp004/exp004.png" alt="exp004_orderParam" style="flex: 1;">
-</div>
+  <img src="exp004/exp004a_Rf_2k.png" alt="exp004a_Rf_2k" style="flex: 1;" width="800">
+  <img src="exp004/exp004b_Rf_5k.png" alt="exp004b_Rf_5k" style="flex: 1;" width="800">
+  <img src="exp004/exp004c_Rf_40k.png" alt="exp004c_Rf_40k" style="flex: 1;" width="800">
 
-
+</details>
 
 
 
