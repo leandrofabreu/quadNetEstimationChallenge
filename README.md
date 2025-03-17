@@ -38,23 +38,6 @@ Parameters of all simulations:
 
 
 
-<details>
-  <summary>## Exp001: two coupled oscillators</summary>
-
-  Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many different coupling strengths (`Rf`). The plot below can be used as a guide to verify the level of synchronization for each value of `Rf`.
-
-  <div style="display: flex;"> 
-    <img src="exp001/exp001_adj.png" alt="exp001_adj" style="flex: 1;" width="250">
-    <img src="exp001/exp001.png" alt="exp001_orderParam" style="flex: 1;">
-  </div>
-
-  <img src="exp001/exp001a_Rf_10k.png" alt="exp001a_Rf_10k" style="flex: 1;" width="800">
-  <img src="exp001/exp001b_Rf_20k.png" alt="exp001b_Rf_20k" style="flex: 1;" width="800">
-  <img src="exp001/exp001c_Rf_70k.png" alt="exp001c_Rf_70k" style="flex: 1;" width="800">
-
-</details>
-
-
 
 ## Exp001: two coupled oscillators
 
@@ -65,9 +48,24 @@ Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many 
   <img src="exp001/exp001.png" alt="exp001_orderParam" style="flex: 1;">
 </div>
 
-<img src="exp001/exp001a_Rf_10k.png" alt="exp001a_Rf_10k" style="flex: 1;" width="800">
+
+<details>
+  <summary>Detalhes (gráficos)</summary>
+
+  <!-- <div style="display: flex;"> 
+    <img src="exp001/exp001_adj.png" alt="exp001_adj" style="flex: 1;" width="250">
+    <img src="exp001/exp001.png" alt="exp001_orderParam" style="flex: 1;">
+  </div> -->
+
+  <img src="exp001/exp001a_Rf_10k.png" alt="exp001a_Rf_10k" style="flex: 1;" width="800">
+  <img src="exp001/exp001b_Rf_20k.png" alt="exp001b_Rf_20k" style="flex: 1;" width="800">
+  <img src="exp001/exp001c_Rf_70k.png" alt="exp001c_Rf_70k" style="flex: 1;" width="800">
+
+</details>
+
+<!-- <img src="exp001/exp001a_Rf_10k.png" alt="exp001a_Rf_10k" style="flex: 1;" width="800">
 <img src="exp001/exp001b_Rf_20k.png" alt="exp001b_Rf_20k" style="flex: 1;" width="800">
-<img src="exp001/exp001c_Rf_70k.png" alt="exp001c_Rf_70k" style="flex: 1;" width="800">
+<img src="exp001/exp001c_Rf_70k.png" alt="exp001c_Rf_70k" style="flex: 1;" width="800"> -->
 
 
 ## Exp002: ring network
