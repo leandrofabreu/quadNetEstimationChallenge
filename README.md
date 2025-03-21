@@ -54,6 +54,33 @@ Parameters of all simulations:
 - `tfTr = 60`: transient time (seconds)
 - `tf = 120`: total time of the simulation in permanent regime (seconds)
 
+The state-equations of the circuit are given by
+
+$$
+\begin{aligned}
+\dot{v}_{\text{sen}} &= \left(\frac{1}{\tau_2}\right)v_{\text{cos}} + \left(\frac{1}{\tau_1} - \frac{1}{\tau_2} + \frac{1}{C_1R_a} \right)v_1 + u_1, \\
+\dot{v}_{\text{cos}} &= \left(-\frac{1}{\tau_3}\right)v_{\text{sen}} - \frac{1}{C_3}I_l + u_2, \\
+\dot{v}_{1} &= \left(\frac{1}{\tau_2}\right)v_{\text{cos}} - \frac{1}{\tau_2}v_1.
+\end{aligned}
+$$
+
+where $\tau_1=R_1C_1$, $\tau_2=R_2C_2$, $\tau_3=R_3C_3$ and the connections of the oscillators are given by
+
+\begin{equation}
+    u_1 = \frac{R_f}{R R_a C_1} \sum_j v_{{\rm sen}}^j ~~ \text{and} ~~ u_2 = \frac{R_f}{R R_a C_1} \sum_j v_{{\cos}}^j ,
+\end{equation}
+
+where the summations include the signals of all oscillators connected to the oscillator. The limiting current $I_l$ is given by
+
+\begin{equation}
+I_l =
+\begin{cases} 
+\frac{1}{R_5}v_{\text{cos}} + \frac{V_{cc}}{R_4}, & \text{se } v_{\text{cos}} < -\frac{R_5}{R_4}V_{cc} - \left(1 + \frac{R_5}{R_4}\right)V_{d}, \\
+\frac{1}{R_5}v_{\text{cos}} - \frac{V_{cc}}{R_4}, & \text{se } v_{\text{cos}} > \frac{R_5}{R_4}V_{cc} + \left(1 + \frac{R_5}{R_4}\right)V_{d}, \\
+0, & \text{otherwise}.
+\end{cases}
+\end{equation}
+
 The parameters, in the `params` variable, was adjusted as shown in the table below.
 
 | Component | Value |
