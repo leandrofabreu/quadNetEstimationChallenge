@@ -99,7 +99,7 @@ The parameters (`params` variable) are shown in the table below.
 
 Two oscillators with natural frequencies 3.80 Hz and 4.00 Hz, coupled with many different coupling strengths (`Rf`). The plot below can be used as a guide to verify the level of synchronization for each value of `Rf`.
 
-<img src="exp001/exp001_adj.png" alt="exp001_adj" style="flex: 1;" width="250">
+<img src="exp001/exp001_adj.svg" alt="exp001_adj" style="flex: 1;" width="250">
 
 <details>
   <summary>Click here to see details...</summary>
