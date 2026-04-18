@@ -117,7 +117,7 @@ ____
 
 Ring topology composed by 10 oscillators with natural frequencies (Hz): [3.9413, 3.9198, 3.8334, 3.9061, 3.9279, 3.9173, 3.8717, 3.8585, 3.9218, 3.8019], coupled with different coupling strengths (`Rf`).
 
-<img src="exp002/exp002_adj.png" alt="exp002_adj" style="flex: 1;" width="250">
+<img src="exp002/exp002_adj.svg" alt="exp002_adj" style="flex: 1;" width="250">
 
 <details>
   <summary>Click here to see details...</summary>
@@ -136,7 +136,7 @@ ____
 
 Small-world topology composed by 10 oscillators with natural frequencies (Hz): [3.8042, 3.8327, 3.8415, 3.8149, 3.8213, 3.8354, 3.8428, 3.8126, 3.8467, 3.8031], coupled with different coupling strengths (`Rf`).
 
-<img src="exp003/exp003_adj.png" alt="exp003_adj" style="flex: 1;" width="250">
+<img src="exp003/exp003_adj.svg" alt="exp003_adj" style="flex: 1;" width="250">
 
 <details>
   <summary>Click here to see details...</summary>
@@ -154,7 +154,7 @@ ____
 
 Scale-free topology composed by 10 oscillators with natural frequencies (Hz): [3.9413, 3.9198, 3.8334, 3.9061, 3.9279, 3.9173, 3.8717, 3.8585, 3.9218, 3.8019], coupled with different coupling strengths (`Rf`). The adjacency matrix \( <strong>Adj</strong> \) is given by:
 
-<img src="exp004/exp004_adj.png" alt="exp004_adj" style="flex: 1;" width="250">
+<img src="exp004/exp004_adj.svg" alt="exp004_adj" style="flex: 1;" width="250">
 
 <details>
   <summary>Click here to see details...</summary>
