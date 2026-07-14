@@ -6,10 +6,12 @@ authors:
     orcid: https://orcid.org/0000-0002-8757-807X
   - family-names: Herrera
     given-names: Wendy Y. E.
+  - family-names: Superbi
+    given-names: Débora D.
   - family-names: Aguirre
     given-names: Luis A.
     orcid: https://orcid.org/0000-0002-2746-5102
 title: "QuadNet Estimation Challenge"
-version: 0.0.1
+version: 0.0.2
 url: https://github.com/leandrofabreu/quadNetEstimationChallenge
-date-released: 2025-03-07
+date-released: 2025-07-13
